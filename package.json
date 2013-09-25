@@ -1,0 +1,33 @@
+{
+  "name": "redis-lockr",
+  "version": "0.0.1",
+  "description": "A redis lock implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torworx/redis-lockr.git"
+  },
+  "keywords": [
+    "redis",
+    "lock",
+    "locker"
+  ],
+  "author": "Tao Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torworx/redis-lockr/issues"
+  },
+  "dependencies": {
+    "redis": "~0.8.4",
+    "lodash": "~2.1.0",
+    "node-uuid": "~1.4.1",
+    "shavaluator": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "mocha": "~1.13.0"
+  }
+}
