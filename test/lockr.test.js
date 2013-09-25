@@ -1,5 +1,5 @@
 var h = require('./init');
-var lockr = require('../lib/lockr');
+var lockr = require('..');
 
 var t = h.assert;
 
