@@ -21,13 +21,13 @@
     "url": "https://github.com/torworx/redis-lockr/issues"
   },
   "dependencies": {
-    "redis": "~0.8.4",
     "lodash": "~2.1.0",
     "node-uuid": "~1.4.1",
     "shavaluator": "0.0.2"
   },
   "devDependencies": {
     "chai": "~1.8.0",
-    "mocha": "~1.13.0"
+    "mocha": "~1.13.0",
+    "redis": "~0.8.6",
   }
 }
