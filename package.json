@@ -1,6 +1,6 @@
 {
   "name": "redis-lockr",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A redis lock implementation.",
   "main": "index.js",
   "scripts": {
@@ -21,13 +21,13 @@
     "url": "https://github.com/torworx/redis-lockr/issues"
   },
   "dependencies": {
-    "lodash": "~2.1.0",
+    "lodash": "~3.10.1",
     "node-uuid": "~1.4.1",
     "shavaluator": "0.0.2"
   },
   "devDependencies": {
-    "chai": "~1.8.0",
-    "mocha": "~1.13.0",
-    "redis": "~0.8.6",
+    "chai": "~3.3.0",
+    "mocha": "~2.3.3",
+    "redis": "~2.0.1"
   }
 }
